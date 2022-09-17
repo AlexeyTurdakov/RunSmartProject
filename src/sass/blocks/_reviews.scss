@@ -1,0 +1,45 @@
+.reviews {
+    padding: 103px 0 0px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #f6f6f6;
+        padding: 70px 0 48px 0;
+    }
+
+    &__item {
+        width: 650px;
+
+    }
+
+    &__user-name {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: left;
+        color: #0d0d0d;
+
+    }
+
+    &__user-progress {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #646464;
+        margin: 10px 0 19px 0;
+    }
+
+    &__user-comment {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #0d0d0d;
+    }
+
+    &__img {
+        display: block;
+        width: 169px;
+        height: 169px;
+    }
+
+}
